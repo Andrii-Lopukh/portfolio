@@ -1,0 +1,61 @@
+
+  body
+  
+  
+  #frame
+   {
+   height: 100%; /* висота */
+   width:100%; /* ширина */
+   background-image: url("https://орфографика.рф/800/600/https/krot.info/uploads/posts/2020-01/1579207679_78-121.jpg");
+   margin:0 auto;
+   display: table;
+
+   }
+
+   #header
+   {
+   width: 100%; /* ширина */ 
+   height:50px; /* висота */
+   background-color:#801adf36;
+   margin:0 auto;
+   margin-top:10px;
+   padding:20px;
+   text-align:center; /* положення */
+   }
+
+   #footer
+   {
+    
+   display: flex;
+   flex-direction: column;
+   width:100%; /* ширина */
+   height:30px; /* висота */
+   background-color:#801adf36;
+   margin:0 auto;
+   margin-top:10px;
+   padding:20px;
+   text-align: center; /* положення */
+   
+  }
+  
+  #content
+   {
+   
+   width:1400px; /* ширина */
+   height:100%; /* висота */
+   background-color:#e2e6eb;
+   margin:25px;
+   float:left; /* положення */
+   }
+
+   #sidebar
+   {
+   
+   width:300px; /* ширина */
+   height:650px; /* висота */
+   background-color:#3ee23e;
+   margin:25px;
+   float:right; /* положення */
+   }
+
+   
