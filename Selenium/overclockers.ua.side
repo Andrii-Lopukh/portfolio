@@ -1,0 +1,1178 @@
+{
+  "id": "bddb4e38-3711-44ef-95c6-b0bb396d7dd5",
+  "version": "2.0",
+  "name": "overclockers.ua",
+  "url": "https://www.overclockers.ua",
+  "tests": [{
+    "id": "8dd15b3d-f09a-42e2-b58b-9ec38afa68cf",
+    "name": "Хедер",
+    "commands": [{
+      "id": "c8f4e1f5-a85c-4a85-8308-7d879232f953",
+      "comment": "Відкрити сайт",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e938f6c0-215c-4c16-af0b-fe52089f1195",
+      "comment": "Перейти на посилання *Новини*",
+      "command": "click",
+      "target": "linkText=Новини",
+      "targets": [
+        ["linkText=Новини", "linkText"],
+        ["css=.col1 > .pin:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Новини')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/news/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Новини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e730eada-9946-4aaa-a6fd-15864615dc63",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e06f3b5-d5e2-4d0d-b20a-9afbfdaea19e",
+      "comment": "Перейти на посилання *Специфікації*",
+      "command": "click",
+      "target": "linkText=Специфікації",
+      "targets": [
+        ["linkText=Специфікації", "linkText"],
+        ["css=.col1 > .pin:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Специфікації')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/specs/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Специфікації')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c8c12e-c029-4c12-a958-91e0ba39ac2c",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadba009-89c8-42d1-be55-cc5a1ad303fa",
+      "comment": "Перейти на посилання *Огляди*",
+      "command": "click",
+      "target": "linkText=Огляди",
+      "targets": [
+        ["linkText=Огляди", "linkText"],
+        ["css=.col2 > .pin > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Огляди')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/reviews/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Огляди')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2674939-1547-4e74-a0c2-38153bbee83b",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d3361c-34bc-4a21-bd11-0029fea13333",
+      "comment": "Перейти на посилання *Процесори*",
+      "command": "click",
+      "target": "linkText=Процесори",
+      "targets": [
+        ["linkText=Процесори", "linkText"],
+        ["css=.col2 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Процесори')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/cpu/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Процесори')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70958c90-d5da-4882-ab8f-8ab5e669c1ef",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd77489f-084a-42c4-98fc-e5d3ceb32ea3",
+      "comment": "Перейти на посилання *Материнські плати*",
+      "command": "click",
+      "target": "linkText=Материнські плати",
+      "targets": [
+        ["linkText=Материнські плати", "linkText"],
+        ["css=.col2 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Материнські плати')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/motherboard/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Материнські плати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fedea04-4fd2-4b4a-915b-81b7f02662ed",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e46a5d-9c81-4d40-9f51-5985df45877f",
+      "comment": "Перейти на посилання *Пам'ять*",
+      "command": "click",
+      "target": "linkText=Пам'ять",
+      "targets": [
+        ["linkText=Пам'ять", "linkText"],
+        ["css=.col2 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/memory/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "412cac65-2b65-4a4f-a801-ce4d1a763fcb",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9bcd36-a4e4-4223-8bc3-4c2912d1ff55",
+      "comment": "Перейти на посилання *Відеокарти*",
+      "command": "click",
+      "target": "linkText=Відеокарти",
+      "targets": [
+        ["linkText=Відеокарти", "linkText"],
+        ["css=.col3 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Відеокарти')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/video/')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Відеокарти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54df33b3-f4d3-4897-812d-8e830996d1c0",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "999c458e-6261-44ca-9651-f95797f0eefc",
+      "comment": "Перейти на посилання *Системи охолодження*",
+      "command": "click",
+      "target": "linkText=Системи охолодження",
+      "targets": [
+        ["linkText=Системи охолодження", "linkText"],
+        ["css=.col3 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Системи охолодження')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/cooler/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Системи охолодження')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "237f6357-9bc3-4765-981a-0ebf69740c5e",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b3a0408-ec32-4936-b614-ebbdac176978",
+      "comment": "Перейти на посилання *Корпуси*",
+      "command": "click",
+      "target": "linkText=Корпуси",
+      "targets": [
+        ["linkText=Корпуси", "linkText"],
+        ["css=.col3 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Корпуси')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/case/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Корпуси')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25bc50a7-c86c-4396-b2ea-06efbc4e6ef1",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74da6d84-28b6-47e1-b4a8-8480612533b5",
+      "comment": "Перейти на посилання *Блоки живлення*",
+      "command": "click",
+      "target": "linkText=Блоки живлення",
+      "targets": [
+        ["linkText=Блоки живлення", "linkText"],
+        ["css=.col3 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Блоки живлення')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/power/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Блоки живлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47f9726-1f42-4978-8cd1-7f6716fd21c6",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10bf29b-e75c-404b-b4cb-cd3bc655bfbd",
+      "comment": "Перейти на посилання *Накопичувачі*",
+      "command": "click",
+      "target": "linkText=Накопичувачі",
+      "targets": [
+        ["linkText=Накопичувачі", "linkText"],
+        ["css=.col4 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Накопичувачі')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/storage/')]", "xpath:href"],
+        ["xpath=//ul[4]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Накопичувачі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f00eba0-a78e-446c-bcb1-00ebd8eade59",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe898eba-1402-4d6b-aaf9-434555ea5bb8",
+      "comment": "Перейти на посилання *Периферія*",
+      "command": "click",
+      "target": "linkText=Периферія",
+      "targets": [
+        ["linkText=Периферія", "linkText"],
+        ["css=.col4 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Периферія')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/peripheral/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Периферія')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85582046-0d86-4b8a-b564-8e3c16a7750c",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d14228a-3fdb-47c0-b002-fcf16fc4cfb4",
+      "comment": "Перейти на посилання *Системи*",
+      "command": "click",
+      "target": "linkText=Системи",
+      "targets": [
+        ["linkText=Системи", "linkText"],
+        ["css=.col4 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/system/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63faff4d-fc90-4075-a95a-28e6f36e3fce",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bef1776-0df0-4867-b810-6499517f8aef",
+      "comment": "Перейти на посилання *Ноутбуки*",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.col4 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/notebook/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f874813-4fbc-43b8-a16f-20203ec255a4",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfe583c6-ac2d-4101-bb54-dba34a6eaa8b",
+      "comment": "Перейти на посилання *Ігриї*",
+      "command": "click",
+      "target": "linkText=Ігри",
+      "targets": [
+        ["linkText=Ігри", "linkText"],
+        ["css=.col5 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ігри')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[5]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/games/')]", "xpath:href"],
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ігри')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31c3a28-891e-4e3f-a8af-7c993edaa991",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a46271-6018-472e-aa51-6cc173b62d96",
+      "comment": "Перейти на посилання *Аналітика*",
+      "command": "click",
+      "target": "linkText=Аналітика",
+      "targets": [
+        ["linkText=Аналітика", "linkText"],
+        ["css=.col5 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналітика')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[5]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/editorial/')]", "xpath:href"],
+        ["xpath=//ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аналітика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f75774e7-2971-4839-b527-9421aeb32bf2",
+      "comment": "Повернутись на головну сторінку",
+      "command": "click",
+      "target": "css=#logo img",
+      "targets": [
+        ["css=#logo img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "697d841e-ad0f-47c1-bc29-b380be51235d",
+      "comment": "Перейти на посилання *Конференція*",
+      "command": "click",
+      "target": "linkText=Конференція",
+      "targets": [
+        ["linkText=Конференція", "linkText"],
+        ["css=.col5 > .pin > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Конференція')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[5]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//forum.overclockers.ua')]", "xpath:href"],
+        ["xpath=//ul[5]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Конференція')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2664ca9-8dc2-4ff4-84e6-9c06bfe1ad26",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Overclockers.ua']", "xpath:img"],
+        ["xpath=//a[@id='logo']/span/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc43c51f-a8b1-4116-b832-96d7ed5c878d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-breadcrumbs .crumb:nth-child(1) span",
+      "targets": [
+        ["css=#nav-breadcrumbs .crumb:nth-child(1) span", "css:finder"],
+        ["xpath=//ul[@id='nav-breadcrumbs']/li/span/a/span", "xpath:idRelative"],
+        ["xpath=//span/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b60a7052-a947-4dc8-93e1-41619c3a36a3",
+    "name": "Футер",
+    "commands": [{
+      "id": "d864c975-159a-443e-89b3-bfa5bf5b5e80",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03e8d5db-f548-4e39-ade4-8fca9a3b1845",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1662x817",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "985db397-e022-438c-94c8-4e7609d676e6",
+      "comment": "Перейти на посилання *Головна*",
+      "command": "click",
+      "target": "linkText=Головна",
+      "targets": [
+        ["linkText=Головна", "linkText"],
+        ["css=#footer > ul:nth-child(1) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Головна')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/')])[141]", "xpath:href"],
+        ["xpath=//body/div/div[10]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Головна')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8361f417-f1bf-4763-9003-c953bff9c8fb",
+      "comment": "Перейти на посилання *Новини*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+      "targets": [
+        ["css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Новини')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/news/')])[51]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c72bc0-5a40-495f-a19c-3dfc73b87a1e",
+      "comment": "Перейти на посилання *Стрічка*",
+      "command": "click",
+      "target": "linkText=стрічка",
+      "targets": [
+        ["linkText=стрічка", "linkText"],
+        ["css=li:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'стрічка')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/newsline/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'стрічка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "433e5d7b-809a-4346-a2be-9f043ff2e461",
+      "comment": "Перейти на посилання *Специфікації*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Специфікації')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/specs/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef9e0ab-8e02-447a-9028-9c44702cf78d",
+      "comment": "Перейти на посилання *Конференції*",
+      "command": "click",
+      "target": "css=ul:nth-child(1) > li:nth-child(4) > a",
+      "targets": [
+        ["css=ul:nth-child(1) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Конференція')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//forum.overclockers.ua')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fd52a4-2c24-40ee-8704-093076fb0df9",
+      "comment": "Повернутися на головну сторінку",
+      "command": "click",
+      "target": "css=#nav-footer .crumb:nth-child(1) span",
+      "targets": [
+        ["css=#nav-footer .crumb:nth-child(1) span", "css:finder"],
+        ["xpath=//ul[@id='nav-footer']/li/span/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li/span/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ecd359-cf69-4189-8fe2-1810d8225e70",
+      "comment": "Перейти на посилання *Процесори*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Процесори')])[7]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/cpu/')])[17]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4baff226-7242-446d-a28f-597769b23365",
+      "comment": "Перейти на посилання *Материнські плати*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Материнські плати')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/motherboard/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1cda3b3-faa3-40ec-9372-d55113a1aee8",
+      "comment": "Перейти на посилання *Відеокарти*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Відеокарти')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/video/')])[5]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ccdc361-8212-4b14-9271-4a85042e5f8c",
+      "comment": "Перейти на посилання *Пам'ять*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='footer']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/memory/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b17aaf4-65c1-4e4a-be12-0774b9cfad26",
+      "comment": "Перейти на посилання *Системи охолодження*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи охолодження')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/cooler/')])[5]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d7281d-112d-4b84-b88c-617f305c5359",
+      "comment": "Перейти на посилання *Корпуси*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Корпуси')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/case/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f08e484-cd5d-4b76-b907-a16aa70a4841",
+      "comment": "Перейти на посилання *Блоки живлення*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Блоки живлення')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/power/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804ab5fc-dbd0-42ff-96c9-869809fbfe05",
+      "comment": "Перейти на посилання *Периферія*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Периферія')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/peripheral/')])[5]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97383dc4-4dba-4415-ab73-6abace4d6270",
+      "comment": "Перейти на посилання *Накопичувачі*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Накопичувачі')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/storage/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f9f826-abf0-4223-b2ed-4155c8d10ba1",
+      "comment": "Перейти на посилання *Ноутбуки*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/notebook/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "528f959b-ee8c-4232-8c1a-68cd3bff63cd",
+      "comment": "Перейти на посилання *Системи*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи')])[5]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/system/')])[2]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52553c1-9501-419a-93a3-a859a8e46610",
+      "comment": "Перейти на посилання *Ігри*",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ігри')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/games/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec02378-4159-4e25-b103-da9bf8cc8c5c",
+      "comment": "Перейти на посилання *Мережі*",
+      "command": "click",
+      "target": "linkText=Мережі",
+      "targets": [
+        ["linkText=Мережі", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Мережі')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/net/')]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мережі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b221cf14-5250-4189-b377-377454f99e65",
+      "comment": "Перейти на посилання *Софт*",
+      "command": "click",
+      "target": "linkText=Софт",
+      "targets": [
+        ["linkText=Софт", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Софт')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/software/')]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Софт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e934d079-ec12-46e2-a3b9-8034cad50d45",
+      "comment": "Перейти на посилання *Молддінг*",
+      "command": "click",
+      "target": "linkText=Моддінг",
+      "targets": [
+        ["linkText=Моддінг", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Моддінг')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/modding/')]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Моддінг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb197af2-8cc1-4b08-a807-3c6ca25153c7",
+      "comment": "Перейти на посилання *Мобіліті*",
+      "command": "click",
+      "target": "linkText=Мобіліті",
+      "targets": [
+        ["linkText=Мобіліті", "linkText"],
+        ["css=ul:nth-child(5) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Мобіліті')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/mobility/')])[3]", "xpath:href"],
+        ["xpath=//ul[5]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мобіліті')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "372670cf-8364-4885-adb0-632fea8f7abc",
+      "comment": "Перейти на посилання *Про проєкт*",
+      "command": "click",
+      "target": "linkText=Про проєкт",
+      "targets": [
+        ["linkText=Про проєкт", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Про проєкт')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/about/')]", "xpath:href"],
+        ["xpath=//ul[6]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Про проєкт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52537fbd-27dc-442d-bb6d-4da01f81b54c",
+      "comment": "Перейти на посилання *Реклама*",
+      "command": "click",
+      "target": "linkText=Реклама",
+      "targets": [
+        ["linkText=Реклама", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Реклама')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/advertising/')]", "xpath:href"],
+        ["xpath=//ul[6]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реклама')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86ef4d74-8003-4685-bcaf-e70e326a60a1",
+      "comment": "Перейти на посилання *Статистика*",
+      "command": "click",
+      "target": "linkText=Статистика",
+      "targets": [
+        ["linkText=Статистика", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Статистика')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/stats/')])[2]", "xpath:href"],
+        ["xpath=//ul[6]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Статистика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28a7f3e3-cd67-4ee4-afd8-431c82c8cfea",
+      "comment": "Перейти на посилання *Вакансії*",
+      "command": "click",
+      "target": "linkText=Вакансії",
+      "targets": [
+        ["linkText=Вакансії", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вакансії')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/hr/')]", "xpath:href"],
+        ["xpath=//ul[6]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вакансії')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4414156f-9c7a-4c9f-ad7a-25d335b2a03c",
+      "comment": "Перейти на зовнішнє  посилання *Фейсбук*",
+      "command": "click",
+      "target": "css=#socials > .fb > a",
+      "targets": [
+        ["css=#socials > .fb > a", "css:finder"],
+        ["xpath=//div[@id='socials']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.facebook.com/overclockersua')])[2]", "xpath:href"],
+        ["xpath=//div[10]/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6310",
+      "windowTimeout": 2000
+    }, {
+      "id": "7e8f6016-4827-425e-b2f2-acf7c0f6f928",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30b4cc7f-ef70-47e8-be96-bf9024d00690",
+      "comment": "Відкривається вкладка фейсбук",
+      "command": "selectWindow",
+      "target": "handle=${win6310}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b24c4a0-184e-4d6a-adce-0097ba75663a",
+      "comment": "Закрити вкладку",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f4102d7-d12c-4604-a2fe-ce3bbb260950",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fc9aa17-00a8-49df-91de-3a913ee1ee68",
+      "comment": "Клікнути на функцію телеграм",
+      "command": "click",
+      "target": "css=#socials > .telegram > a",
+      "targets": [
+        ["css=#socials > .telegram > a", "css:finder"],
+        ["xpath=//div[@id='socials']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://t.me/overclockersua')])[2]", "xpath:href"],
+        ["xpath=//div[10]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7947",
+      "windowTimeout": 2000
+    }, {
+      "id": "2efcbde6-b6c9-472e-a7c9-9033a2cf06d9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7947}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8b99a2a-c3f8-4488-81b7-1e4fb2c60fe7",
+      "comment": "закрити вкладку",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e3c6081-30d6-464d-a254-1764c2fad08e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92b70809-bd46-40f1-b217-c4545eaf91f5",
+      "comment": "Клікнути на посилання Твітер",
+      "command": "click",
+      "target": "css=#socials > .twitter > a",
+      "targets": [
+        ["css=#socials > .twitter > a", "css:finder"],
+        ["xpath=//div[@id='socials']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://twitter.com/overclockersua')])[2]", "xpath:href"],
+        ["xpath=//div[10]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win63",
+      "windowTimeout": 2000
+    }, {
+      "id": "e6c31793-982f-42fa-aaf3-6a9de692beb6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win63}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eca1634c-af36-4c23-972a-a864dbfe453e",
+      "comment": "закрити влкдку",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eff3b1e7-f1fc-4e48-86b3-1dfa065a1e7c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6060a3ef-093f-4dd9-abd6-975a73fd95d8",
+      "comment": "Клікнути на посилання ХМЛ",
+      "command": "click",
+      "target": "css=#socials > .rss > a",
+      "targets": [
+        ["css=#socials > .rss > a", "css:finder"],
+        ["xpath=//div[@id='socials']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/rss.xml')])[2]", "xpath:href"],
+        ["xpath=//div[10]/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a53c386-4e2d-4546-8dbc-71ece2a2a389",
+      "comment": "Відкрити сайт",
+      "command": "open",
+      "target": "https://www.overclockers.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4cb5973-5418-4436-b958-17e867bd0b33",
+      "comment": "Клікнути на функцію зміна локалізації RU",
+      "command": "click",
+      "target": "css=.lang:nth-child(2) > a",
+      "targets": [
+        ["css=.lang:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'RU')])[2]", "xpath:link"],
+        ["xpath=//div[@id='copyright']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[243]", "xpath:href"],
+        ["xpath=//div[10]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd24fbf-5998-499f-a367-590ddf1859c5",
+      "comment": "Клікнути на функцію зміна локалізації UA",
+      "command": "click",
+      "target": "css=.lang:nth-child(2) > a",
+      "targets": [
+        ["css=.lang:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'UA')])[4]", "xpath:link"],
+        ["xpath=//div[@id='copyright']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/')])[10]", "xpath:href"],
+        ["xpath=//div[10]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac09a5e4-fb38-40d6-b99b-a64c7f326c39",
+    "name": "Пошук",
+    "commands": [{
+      "id": "ac05b368-eb63-4044-834c-6885714fcaab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad8cb1cb-5b1f-45a9-9c5c-edb7bcfa5476",
+      "comment": "Клікнути \"Розширений пошук\"",
+      "command": "click",
+      "target": "linkText=розширений пошук",
+      "targets": [
+        ["linkText=розширений пошук", "linkText"],
+        ["css=#sidebar_search a", "css:finder"],
+        ["xpath=//a[contains(text(),'розширений пошук')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar_search']/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/search/')])[2]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'розширений пошук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae491802-f1e8-4dbf-89f6-a4b5af50c041",
+      "comment": "Зняти чекбокс \"У новинах\"",
+      "command": "click",
+      "target": "id=newsSearch",
+      "targets": [
+        ["id=newsSearch", "id"],
+        ["name=n", "name"],
+        ["css=#newsSearch", "css:finder"],
+        ["xpath=//input[@id='newsSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c65b6f7-b0d0-4718-8220-5854e966b06c",
+      "comment": "Поставити чекбок \"У новинах\"",
+      "command": "click",
+      "target": "id=newsSearch",
+      "targets": [
+        ["id=newsSearch", "id"],
+        ["name=n", "name"],
+        ["css=#newsSearch", "css:finder"],
+        ["xpath=//input[@id='newsSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf411f4-2c3a-45d2-9849-2fc739767551",
+      "comment": "Зняти чекбокс \"В оглядах\"",
+      "command": "click",
+      "target": "id=reviewsSearch",
+      "targets": [
+        ["id=reviewsSearch", "id"],
+        ["name=r", "name"],
+        ["css=#reviewsSearch", "css:finder"],
+        ["xpath=//input[@id='reviewsSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd757ba2-d752-4c9a-898c-9f3ba4ae1ee9",
+      "comment": "Поставити чекбокс \"В оглядах\"",
+      "command": "click",
+      "target": "id=reviewsSearch",
+      "targets": [
+        ["id=reviewsSearch", "id"],
+        ["name=r", "name"],
+        ["css=#reviewsSearch", "css:finder"],
+        ["xpath=//input[@id='reviewsSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41bef746-fa58-4679-8d69-cfb1babdf288",
+      "comment": "Змінити чекбокс \"Часом\"",
+      "command": "click",
+      "target": "id=sortTime",
+      "targets": [
+        ["id=sortTime", "id"],
+        ["css=#sortTime", "css:finder"],
+        ["xpath=//input[@id='sortTime']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//p[3]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb1ba9b-b938-4264-a221-2f8a9bfb3835",
+      "comment": "Змінити чекбокс \"Релевантністю\"",
+      "command": "click",
+      "target": "id=sortRelevance",
+      "targets": [
+        ["id=sortRelevance", "id"],
+        ["name=s", "name"],
+        ["css=#sortRelevance", "css:finder"],
+        ["xpath=//input[@id='sortRelevance']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "169fbb1c-7b26-434b-8037-698aeaef8655",
+      "comment": "Поставити курсор у поле вводу для пошуку",
+      "command": "click",
+      "target": "id=searchQuery",
+      "targets": [
+        ["id=searchQuery", "id"],
+        ["name=q", "name"],
+        ["css=#searchQuery", "css:finder"],
+        ["xpath=//input[@id='searchQuery']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d96307-4b28-42ac-b6c6-ed0e080a6a55",
+      "comment": "ввести \"Процесор\" у поле для пошуку",
+      "command": "type",
+      "target": "id=searchQuery",
+      "targets": [
+        ["id=searchQuery", "id"],
+        ["name=q", "name"],
+        ["css=#searchQuery", "css:finder"],
+        ["xpath=//input[@id='searchQuery']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "процесор"
+    }, {
+      "id": "12994151-bed1-4b91-bea8-adbf2c2760ff",
+      "comment": "Клікнути \"Шукати\"",
+      "command": "click",
+      "target": "id=searchButton",
+      "targets": [
+        ["id=searchButton", "id"],
+        ["css=#searchButton", "css:finder"],
+        ["xpath=//input[@id='searchButton']", "xpath:attributes"],
+        ["xpath=//div[@id='post']/div/form/p/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a0f32948-8869-4769-99b3-3c8ed2c04ff7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.overclockers.ua/"],
+  "plugins": []
+}
